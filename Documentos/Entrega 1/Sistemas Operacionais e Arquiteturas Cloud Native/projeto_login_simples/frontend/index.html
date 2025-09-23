@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Login Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CRUD de Login Simples</h1>
+    <main>
+        <section class="form-section">
+            <h2>Registrar</h2>
+            <form id="registerForm">
+                <input type="email" id="registerEmail" placeholder="E-mail" required>
+                <input type="password" id="registerPassword" placeholder="Senha" required>
+                <button type="submit">Registrar</button>
+            </form>
+        </section>
+
+        <section class="form-section">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="email" id="loginEmail" placeholder="E-mail" required>
+                <input type="password" id="loginPassword" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+
+        <section class="users-section">
+            <h2>Usuários Cadastrados</h2>
+            <ul id="usersList">
+                </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MeuApp</string>
+    <string name="registro">Registro</string>
+    <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="sair">Sair</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Suas cores existentes aqui... -->
+
+    <color name="colorPrimaryGreen">#4CAF50</color>
+    <color name="colorPrimaryGreenLight">#E8F5E9</color>
+    <color name="textColorPrimary">#333333</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="dividerColor">#E0E0E0</color>
+    <color name="dividerColorDark">#BDBDBD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Adicione outras cores que você precisar -->
+</resources>

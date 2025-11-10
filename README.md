@@ -28,6 +28,7 @@ Dessa forma, o Comedoria da Tia APP melhora a rotina dos estudantes e fortalece 
 Raiz
 │
 ├── documentos
+
 │   ├── ComedoriaDaTia.apk
 │   ├── Entrega 1
 │   │   ├── Programação Mobile

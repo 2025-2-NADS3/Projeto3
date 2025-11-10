@@ -22,3 +22,29 @@ Com ele, os estudantes podem visualizar o cardápio atualizado, fazer pedidos an
 Além de beneficiar os alunos, o sistema também oferece ferramentas de gestão para auxiliar a administração da comedoria, permitindo controle de pedidos, acompanhamento do fluxo de vendas em tempo real e gerenciamento de estoque.
 
 Dessa forma, o Comedoria da Tia APP melhora a rotina dos estudantes e fortalece a gestão do negócio, promovendo agilidade, eficiência e crescimento sustentável.
+
+## 🛠 Estrutura de Pastas
+
+-Raiz
+|
+|-->documentos
+| |-->ComedoriaDaTia.apk
+| |-->Entrega 1
+| | |Programação Mobile
+| | |User Experience Digital
+| | |Sistemas Operacionais e Arquiteturas Cloud Native
+| | |Testes e Qualidade de Software (DevOps)
+| |-->Entrega 2
+|
+|-->src
+| |-->Entrega 1
+| | |Programação Mobile
+| |  |ComedoriaAPP @ 722f1b2
+| | |User Experience Digital
+| | |Sistemas Operacionais e Arquiteturas Cloud Native
+| | |Testes e Qualidade de Software (DevOps)
+| |-->Entrega 2
+|
+|-->imagens
+|
+|readme.md

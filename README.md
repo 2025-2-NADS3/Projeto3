@@ -47,7 +47,7 @@ Dessa forma, o Comedoria da Tia APP melhora a rotina dos estudantes e fortalece 
   |--> readme.md
 ```
 
-##🎓 Referências
+## 🎓 Referências
 
  - Android Studio — Developer Documentation
 

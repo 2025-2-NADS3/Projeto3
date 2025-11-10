@@ -25,6 +25,7 @@ Dessa forma, o Comedoria da Tia APP melhora a rotina dos estudantes e fortalece 
 
 ## 🛠 Estrutura de Pastas
 
+``` txt
 - Raiz 
   |--> documentos 
       |--> ComedoriaDaTia.apk 
@@ -44,7 +45,7 @@ Dessa forma, o Comedoria da Tia APP melhora a rotina dos estudantes e fortalece 
       |--> Entrega 2 
   |--> imagens 
   |--> readme.md
-
+```
 
 
 

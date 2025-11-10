@@ -48,9 +48,12 @@ Dessa forma, o Comedoria da Tia APP melhora a rotina dos estudantes e fortalece 
 ```
 ##🎓 Referências
 
-Android Studio — Developer Documentation
-React.js — Official Docs
-Node.js Express — API Guide
-FECAP — Fundação de Comércio Álvares Penteado
+ - Android Studio — Developer Documentation
+
+ - React.js — Official Docs
+
+ - Node.js Express — API Guide
+
+ - FECAP — Fundação de Comércio Álvares Penteado
 
 

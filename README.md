@@ -28,22 +28,16 @@ Dessa forma, o Comedoria da Tia APP melhora a rotina dos estudantes e fortalece 
 ``` txt
 - Raiz 
   |--> documentos 
-      |--> ComedoriaDaTia.apk 
       |--> Entrega 1 
           | Programação Mobile 
           | User Experience Digital 
           | Sistemas Operacionais e Arquiteturas Cloud Native 
           | Testes e Qualidade de Software (DevOps) 
       |--> Entrega 2 
-  |--> src 
-      |--> Entrega 1 
           | Programação Mobile 
-              | ComedoriaAPP @ 722f1b2 
           | User Experience Digital 
           | Sistemas Operacionais e Arquiteturas Cloud Native 
           | Testes e Qualidade de Software (DevOps) 
-      |--> Entrega 2 
-  |--> imagens 
   |--> readme.md
 ```
 

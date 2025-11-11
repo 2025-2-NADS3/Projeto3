@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".ConfirmOtpActivity"> <!-- Crie esta Activity -->
+
+    <TextView
+        android:id="@+id/txtTitleConfirmOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o código"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/txtSubtitleConfirmOtp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Enviamos um código de verificação para seu email/telefone."
+        android:textSize="16sp"
+        android:textColor="@color/textColorSecondary"
+        app:layout_constraintTop_toBottomOf="@id/txtTitleConfirmOtp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Campo único para 6 dígitos -->
+    <EditText
+        android:id="@+id/edtOtpCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:hint="_ _ _ _ _ _"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textAlignment="center"
+        android:letterSpacing="0.2"
+        android:padding="12dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/txtSubtitleConfirmOtp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Use MaterialButton para cantos arredondados -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnReceberSenhaConfirmOtp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/colorPrimaryGreen"
+        android:text="Confirmar Código"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
